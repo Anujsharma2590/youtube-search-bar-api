@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left">
+            <img src="images/menu.png" alt="menu-icon" class="menu-icon">
+            <img src="data:image/png;base64,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" alt="logo" class="logo">
+        </div>
+
+
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search" id="query">
+                <div>
+                 <button onclick="findVideos()" class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                
+            </div>
+            
+            <img src="images/voice-search.png" alt="mic-iocn" class="mic-icon">
+
+        </div>
+
+
+        <div class="flex-div nav-right">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/anuj.jpg" alt="" class="user-icon">
+
+        </div>
+
+
+
+    </nav>
+
+
+    <div id="videos"></div>
+    <script src="app.js"></script>
+</body>
+</html>
